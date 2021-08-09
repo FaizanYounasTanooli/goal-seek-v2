@@ -6,13 +6,21 @@ goal-seek-v2 is a javascript library that used to find independent value of  "x"
 
 ## Usage
 ```javascript
-const GoalSeek = (
-  fn,
-  Params,
-  Goal,
-  IndependentVariable,
-  Tol,
-);
+const GoalSeek= (fn,Prams,Goal,IndependentVariable,Tol)=>
+{
+    let Res=0;
+    let Leading=0,Lag=0;
+    let Relation;
+    let MaxIrritations=5000;
+    let Count=0;
+    Res=fn.apply(null,Prams);
+    Prams[IndependentVariable]+=1;
+    let TestResult=fn.apply(null,Prams);
+    Relation=(Goal-Res)>(Goal-TestResult);
+    Prams[IndependentVariable]-=1;
+    .......
+    
+}
 ```
 
 The `GoalSeek` function takes one object argument with the following keys:
