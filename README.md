@@ -12,8 +12,8 @@ const goalSeek = ({
   Goal,
   IndependentVariable,
   Tol,
-});```
-
+});
+```
 
 The `goalSeek` function takes one object argument with the following keys:
 
