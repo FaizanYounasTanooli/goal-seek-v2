@@ -5,14 +5,14 @@ goal-seek-v2 is a javascript library that used to find independent value of  "x"
 
 
 ## Usage
-
+```
 const goalSeek = ({
   fn,
   Params,
   Goal,
   IndependentVariable,
   Tol,
-});
+});```
 
 
 The `goalSeek` function takes one object argument with the following keys:
