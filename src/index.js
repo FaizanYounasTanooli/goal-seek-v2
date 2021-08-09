@@ -49,3 +49,4 @@ const GoalSeek= (fn,Prams,Goal,IndependentVariable,Tol)=>
     }
     
 }
+export default GoalSeek;
