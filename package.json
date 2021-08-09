@@ -1,0 +1,25 @@
+{
+  "name": "goal-seek-v2",
+  "version": "1.0.0",
+  "description": "Goal seek for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITsFazi/goal-seek-v2.git"
+  },
+  "keywords": [
+    "goal",
+    "seek",
+    "excel",
+    "find-function-value"
+  ],
+  "author": "faizanyounastanooli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ITsFazi/goal-seek-v2/issues"
+  },
+  "homepage": "https://github.com/ITsFazi/goal-seek-v2#readme"
+}
