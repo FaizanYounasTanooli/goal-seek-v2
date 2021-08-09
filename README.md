@@ -5,7 +5,7 @@ goal-seek-v2 is a javascript library that used to find independent value of  "x"
 
 
 ## Usage
-```
+```javascript
 const goalSeek = ({
   fn,
   Params,
