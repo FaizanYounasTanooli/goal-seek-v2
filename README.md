@@ -1,10 +1,11 @@
+### Readme is incomplete will improve in time.
 # goal-seek-v2
 Goal seek for javascript
 
 goal-seek-v2 is a javascript library that used to find independent value of  "x"; of a function: "f(x)" with multiple parameters; such that f(x) equals some defined goal.
 
-### Readme is incomplete will improve in time.
 
+## Declaration
 ```javascript
 const GoalSeek= (fn,Prams,Goal,IndependentVariable,Tol)=>
 {
